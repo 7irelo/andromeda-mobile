@@ -1,50 +1,135 @@
-# Welcome to your Expo app 👋
+# Andromeda - Cross-Platform Social Media Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the Andromeda repository! Andromeda is a cross-platform social media application built with React Native that allows users to share images and videos seamlessly. This README provides all the necessary information to get started with the project, including setup instructions, features, and contribution guidelines.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-   ```bash
+## Features
+
+- **User Authentication**: Secure login and registration with email/password.
+- **Media Sharing**: Post images and videos.
+- **Feed**: View posts from users you follow.
+- **Profile**: Manage your profile, view your posts.
+- **Likes and Comments**: Engage with posts through likes and comments.
+- **Notifications**: Get notified about likes, comments, and new followers.
+- **Search**: Find users and posts with the search functionality.
+- **Cross-Platform**: Available on both iOS and Android devices.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Node.js** (version >= 14)
+- **npm** or **yarn**
+- **React Native CLI** (for running on actual devices)
+- **Android Studio** and/or **Xcode** (for Android and iOS development, respectively)
+- A **Firebase** project setup (for authentication and media storage)
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/andromeda.git
+   cd andromeda
+   ```
+
+2. **Install dependencies:**
+   ```sh
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
+3. **Set up Firebase:**
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+   - Enable Authentication, Firestore Database, and Storage.
+   - Download the `google-services.json` file for Android and `GoogleService-Info.plist` file for iOS, and place them in their respective directories.
 
-   ```bash
-    npx expo start
+4. **Link native dependencies:**
+   ```sh
+   npx react-native link
    ```
 
-In the output, you'll find options to open the app in a
+5. **Start the Metro bundler:**
+   ```sh
+   npx react-native start
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+6. **Run the application:**
+   - For Android:
+     ```sh
+     npx react-native run-android
+     ```
+   - For iOS:
+     ```sh
+     npx react-native run-ios
+     ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Usage
 
-## Get a fresh project
+Once the app is installed, you can:
 
-When you're ready, run:
+- Sign up for a new account or log in with an existing one.
+- Share images and videos from your device.
+- Explore the feed to see posts from other users.
+- Like and comment on posts.
+- Follow other users to see their posts in your feed.
+- Edit your profile information and manage your posts.
 
-```bash
-npm run reset-project
+## Folder Structure
+
+Here's a brief overview of the project's folder structure:
+
+```
+andromeda/
+├── android/              # Android-specific files
+├── ios/                  # iOS-specific files
+├── src/
+│   ├── assets/           # Images, fonts, etc.
+│   ├── components/       # Reusable components
+│   ├── navigation/       # Navigation configurations
+│   ├── screens/          # App screens (Home, Profile, etc.)
+│   ├── services/         # API and Firebase services
+│   ├── styles/           # Styling files
+│   └── utils/            # Utility functions
+├── App.js                # Entry point of the app
+├── package.json          # Project dependencies and scripts
+└── README.md             # Project documentation
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributing
 
-## Learn more
+We welcome contributions! Follow these steps to contribute:
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Please make sure to update tests as appropriate.
 
-## Join the community
+## License
 
-Join our community of developers creating universal apps.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- **Email**: andromeda.support@example.com
+- **GitHub Issues**: [Andromeda Issues](https://github.com/your-username/andromeda/issues)
+
+Thank you for using Andromeda! We hope you enjoy sharing your moments with the world.
