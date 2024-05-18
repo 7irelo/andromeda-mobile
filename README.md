@@ -40,7 +40,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/andromeda.git
+   git clone https://github.com/7irelo/Andromeda.git
    cd andromeda
    ```
 
@@ -129,7 +129,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: andromeda.support@example.com
-- **GitHub Issues**: [Andromeda Issues](https://github.com/your-username/andromeda/issues)
+- **Email**: tirelo.eric@gmail.com
+- **GitHub Issues**: [Andromeda Issues](https://github.com/7irelo/Andromeda/issues)
 
 Thank you for using Andromeda! We hope you enjoy sharing your moments with the world.
