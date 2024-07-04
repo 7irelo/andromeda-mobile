@@ -1,4 +1,4 @@
-# Andromeda - Cross-Platform Social Media Application
+# Andromeda
 
 Welcome to the Andromeda repository! Andromeda is a cross-platform social media application built with React Native that allows users to share images and videos seamlessly. This README provides all the necessary information to get started with the project, including setup instructions, features, and contribution guidelines.
 
