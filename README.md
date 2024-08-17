@@ -40,8 +40,8 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/7irelo/Andromeda.git
-   cd andromeda
+   git clone https://github.com/7irelo/andromeda-mobile.git
+   cd andromeda-mobile
    ```
 
 2. **Install dependencies:**
